@@ -1,9 +1,5 @@
 import json
 
-with open('family.json', 'r') as f:
-    parsed_json = json.loads(f.read())
-
-
 def get_person_base_json(name, year, children, postdoc=0):
     base_json = {}
     base_json['born'] = year
