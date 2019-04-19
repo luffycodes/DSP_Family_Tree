@@ -222,8 +222,8 @@ richb_children.append(get_person_base_json('Lorenzo Luzi', '2017', []))
 richb_children.append(get_person_base_json('Indu Manickam', '2016', []))
 richb_children.append(get_person_base_json('Tan Minh Nguyen', '2015', []))
 richb_children.append(get_person_base_json('Shashank Sonkar', '2017', []))
-richb_children.append(get_person_base_json('Jasper Tan', '2015', []))
 richb_children.append(get_person_base_json('Jack Wang', '2016', []))
+richb_children.append(get_person_base_json('Jasper Tan', '2015', []))
 
 richb_json = get_person_base_json('', '1990', richb_children)
 
