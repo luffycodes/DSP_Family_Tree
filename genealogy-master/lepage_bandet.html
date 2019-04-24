@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><title>Lepage-Bandet Descendants</title>
+<head><title>Richard G. Baraniuk's Academic Tree</title>
 <meta charset="utf-8">
 </head>
 <style>
@@ -17,7 +17,7 @@
 }
 
 .node {
-  font: 18px sans-serif;
+  font: 26px sans-serif;
 }
 
 .decade {
@@ -25,13 +25,13 @@
 }
 
 .title {
-  font: 18px sans-serif;
+  font: 36px sans-serif;
 }
 
 .link {
   fill: none;
   stroke: #ccc;
-  stroke-width: 1.5px;
+  stroke-width: 2px;
 }
 
 </style>
@@ -39,9 +39,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
 <script>
 
-var diameter = 1800;
+var diameter = 3000;
 
-function yearToY(year){ return (year-1990)*21;}
+function yearToY(year){ return (year-1990)*36;}
 function getY(d) { 
   //return d.y;
   return yearToY(d.born);
