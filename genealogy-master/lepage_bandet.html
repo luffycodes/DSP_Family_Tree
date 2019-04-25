@@ -12,8 +12,8 @@
 
 .decade circle {
   fill: none;
-  stroke: lightgrey;
-  stroke-width: 0.5px;
+  stroke: #ccc;
+  stroke-width: 1px;
 }
 
 .node {
@@ -98,9 +98,11 @@ d3.json("richb.json", function(error, root) {
 
 
   var decade = svg.selectAll(".decade")
-      .data([1990,
+      .data([1995,
           2000,
+          2005,
           2010,
+          2015,
           2020])
     .enter().append("g")
       .attr("class", "decade")

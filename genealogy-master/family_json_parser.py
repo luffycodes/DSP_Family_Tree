@@ -264,7 +264,18 @@ richb_children.append(get_person_base_json('Jan Odegard', '1997', [], postdoc=1)
 richb_children.append(get_person_base_json('Rolf Riedi', '1997', [], postdoc=1))
 
 nowak_children = []
-richb_children.append(get_person_base_json('Robert Nowak', '1996', nowak_children, postdoc=1))
+nowak_children.append(get_person_base_json('Mark Coates', '2020', []))
+nowak_children.append(get_person_base_json('Rebecca Willett', '2020', []))
+nowak_children.append(get_person_base_json('Michael Rabbat', '2020', []))
+nowak_children.append(get_person_base_json('Rui Castro', '2020', []))
+nowak_children.append(get_person_base_json('Clayton Scott', '2020', []))
+nowak_children.append(get_person_base_json('Yolanda Tsang', '2020', []))
+nowak_children.append(get_person_base_json('Yi Wan', '2020', []))
+nowak_children.append(get_person_base_json('Laura Balzano', '2020', []))
+nowak_children.append(get_person_base_json('Bobak Nazer', '2020', []))
+nowak_children.append(get_person_base_json('Jarvis Haupt', '2020', []))
+nowak_children.append(get_person_base_json('Gautam Dasarathy', '2020', []))
+richb_children.append(get_person_base_json('Robert Nowak', '1995', nowak_children, postdoc=1))
 
 paulo_children = []
 paulo_children.append(get_person_base_json('Julien Gosme', '2020', []))
@@ -283,7 +294,7 @@ paulo_children.append(get_person_base_json('Sarah De Nigris', '2020', []))
 paulo_children.append(get_person_base_json('Gaetan Frusque', '2020', []))
 paulo_children.append(get_person_base_json('Dominique Barbe', '2020', []))
 paulo_children.append(get_person_base_json('Mikhail Tsitsvero', '2020', []))
-richb_children.append(get_person_base_json('Paulo Goncalves', '1993', paulo_children, postdoc=1))
+richb_children.append(get_person_base_json('Paulo Goncalves', '1994', paulo_children, postdoc=1))
 
 richb_json = get_person_base_json('', '1990', richb_children)
 
