@@ -258,7 +258,7 @@ richb_children.append(get_person_base_json('Vidya Venkatachalam', '2000', [], po
 richb_children.append(get_person_base_json('Maarten Jansen', '2000', [], postdoc=1))
 richb_children.append(get_person_base_json('Mark Coates', '1999', [], postdoc=1))
 richb_children.append(get_person_base_json('Hyeokho Choi', '1998', [], postdoc=1))
-richb_children.append(get_person_base_json('Ivan Magrin Chagnolleau', '1998', [], postdoc=1))
+richb_children.append(get_person_base_json('Ivan Magrin', '1998', [], postdoc=1))
 richb_children.append(get_person_base_json('Philippe Steeghs', '1998', [], postdoc=1))
 richb_children.append(get_person_base_json('Jan Odegard', '1997', [], postdoc=1))
 richb_children.append(get_person_base_json('Rolf Riedi', '1997', [], postdoc=1))
