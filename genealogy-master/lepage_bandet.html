@@ -21,11 +21,11 @@
 }
 
 .decade {
-  font: 10px sans-serif;
+  font: 15px sans-serif;
 }
 
 .title {
-  font: 36px sans-serif;
+  font: 50px sans-serif;
 }
 
 .link {
@@ -116,7 +116,7 @@ d3.json("richb.json", function(error, root) {
     .data(["Richard G. Baraniuk"])
     .enter().append("text")
       .attr("class", "title")
-      .attr("transform", function(d) { return "translate(-50,20)" })
+      .attr("transform", function(d) { return "translate(-205,-17)" })
       .text(function(d) { return d; });
 
   var node = svg.selectAll(".node")

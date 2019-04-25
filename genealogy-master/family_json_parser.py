@@ -84,12 +84,13 @@ richb_children.append(get_person_base_json('Mark Davenport', '2010', mark_childr
 
 marko_children = []
 marko_children.append(get_person_base_json('Shermin Hamzehei', '2020', []))
-marko_children.append(get_person_base_json('Siwei Feng', '2019', []))
-marko_children.append(get_person_base_json('Dian Mo', '2018', []))
-marko_children.append(get_person_base_json('Hamid Dadkhahi', '2016', []))
+marko_children.append(get_person_base_json('Siwei Feng', '2020', []))
+marko_children.append(get_person_base_json('Dian Mo', '2020', []))
+marko_children.append(get_person_base_json('Hamid Dadkhahi', '2020', []))
 richb_children.append(get_person_base_json('Marco Duarte', '2009', marko_children))
 
 richb_children.append(get_person_base_json('Shriram Sarvotham', '2008', []))
+richb_children.append(get_person_base_json('Ray Wagner', '2007', []))
 
 mike_children = []
 mike_children.append(get_person_base_json('Xinshuo Yang', '2020', []))
@@ -108,7 +109,6 @@ mike_children.append(get_person_base_json('Michael Coco', '2020', []))
 richb_children.append(get_person_base_json('Mike Wakin', '2006', mike_children))
 
 
-richb_children.append(get_person_base_json('Ray Wagner', '2007', []))
 richb_children.append(get_person_base_json('Vinay Ribeiro', '2005', []))
 richb_children.append(get_person_base_json('Nadeem Ahmed', '2004', []))
 
@@ -220,6 +220,7 @@ jarvis_children.append(get_person_base_json('Jineng Ren', '2020', []))
 jarvis_children.append(get_person_base_json('Akshay Kumar', '2020', []))
 jarvis_children.append(get_person_base_json('Gamini Udawat', '2020', []))
 richb_children.append(get_person_base_json('Jarvis Haupt', '2009', jarvis_children, postdoc=1))
+richb_children.append(get_person_base_json('Petros Boufounos', '2008', [], postdoc=1))
 
 volkan_children = []
 volkan_children.append(get_person_base_json('K Parameswaran', '2020', []))
@@ -248,23 +249,22 @@ volkan_children.append(get_person_base_json('Armin Eftekhari', '2020', []))
 volkan_children.append(get_person_base_json('Bang Vu Cong', '2020', []))
 richb_children.append(get_person_base_json('Volkan Cevher', '2007', volkan_children, postdoc=1))
 
-richb_children.append(get_person_base_json('Petros Boufounos', '2008', [], postdoc=1))
 richb_children.append(get_person_base_json('Chris Rozell', '2007', [], postdoc=1))
-richb_children.append(get_person_base_json('Dror Baron', '2003', [], postdoc=1))
-richb_children.append(get_person_base_json('Veronique Delouille', '2003', [], postdoc=1))
 richb_children.append(get_person_base_json('Rutger van Spaendonck', '2003', [], postdoc=1))
+richb_children.append(get_person_base_json('Veronique Delouille', '2003', [], postdoc=1))
+richb_children.append(get_person_base_json('Dror Baron', '2003', [], postdoc=1))
 richb_children.append(get_person_base_json('Xin Wang', '2001', [], postdoc=1))
+richb_children.append(get_person_base_json('Vidya Venkatachalam', '2000', [], postdoc=1))
 richb_children.append(get_person_base_json('Maarten Jansen', '2000', [], postdoc=1))
 richb_children.append(get_person_base_json('Mark Coates', '1999', [], postdoc=1))
-richb_children.append(get_person_base_json('Vidya Venkatachalam', '2000', [], postdoc=1))
 richb_children.append(get_person_base_json('Hyeokho Choi', '1998', [], postdoc=1))
-richb_children.append(get_person_base_json('Rolf Riedi', '1997', [], postdoc=1))
 richb_children.append(get_person_base_json('Ivan Magrin Chagnolleau', '1998', [], postdoc=1))
+richb_children.append(get_person_base_json('Philippe Steeghs', '1998', [], postdoc=1))
 richb_children.append(get_person_base_json('Jan Odegard', '1997', [], postdoc=1))
-richb_children.append(get_person_base_json('Philippe Steeghs', '1997', [], postdoc=1))
+richb_children.append(get_person_base_json('Rolf Riedi', '1997', [], postdoc=1))
 
 nowak_children = []
-richb_children.append(get_person_base_json('Robert Nowak', '1995', nowak_children, postdoc=1))
+richb_children.append(get_person_base_json('Robert Nowak', '1996', nowak_children, postdoc=1))
 
 paulo_children = []
 paulo_children.append(get_person_base_json('Julien Gosme', '2020', []))
@@ -283,7 +283,7 @@ paulo_children.append(get_person_base_json('Sarah De Nigris', '2020', []))
 paulo_children.append(get_person_base_json('Gaetan Frusque', '2020', []))
 paulo_children.append(get_person_base_json('Dominique Barbe', '2020', []))
 paulo_children.append(get_person_base_json('Mikhail Tsitsvero', '2020', []))
-richb_children.append(get_person_base_json('Paulo Goncalves', '1994', paulo_children, postdoc=1))
+richb_children.append(get_person_base_json('Paulo Goncalves', '1993', paulo_children, postdoc=1))
 
 richb_json = get_person_base_json('', '1990', richb_children)
 
